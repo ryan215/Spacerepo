@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('../../fonts/Lato-Bold-webfont.eot');
+    src: url('../../fonts/Lato-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Lato-Bold-webfont.woff') format('woff'), 
+         url('../../fonts/Lato-Bold-webfont.ttf') format('truetype'),
+         url('../../fonts/Lato-Bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../../fonts/Lato-Regular-webfont.eot');
+    src: url('../../fonts/Lato-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Lato-Regular-webfont.woff2') format('woff2'),
+         url('../../fonts/Lato-Regular-webfont.woff') format('woff'),
+         url('../../fonts/Lato-Regular-webfont.ttf') format('truetype'),
+         url('../../fonts/Lato-Regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latomedium';
+    src: url('../../fonts/Lato-Medium-webfont.eot');
+    src: url('../../fonts/Lato-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Lato-Medium-webfont.woff2') format('woff2'),
+         url('../../fonts/Lato-Medium-webfont.woff') format('woff'),
+         url('../../fonts/Lato-Medium-webfont.ttf') format('truetype'),
+         url('../../fonts/Lato-Medium-webfont.svg#latomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../../fonts/Lato-Semibold-webfont.eot');
+    src: url('../../fonts/Lato-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Lato-Semibold-webfont.woff2') format('woff2'),
+         url('../../fonts/Lato-Semibold-webfont.woff') format('woff'),
+         url('../../fonts/Lato-Semibold-webfont.ttf') format('truetype'),
+         url('../../fonts/Lato-Semibold-webfont.svg#latosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latoheavy';
+    src: url('../../fonts/lato-heavy-webfont.eot');
+    src: url('../../fonts/lato-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/lato-heavy-webfont.woff2') format('woff2'),
+         url('../../fonts/lato-heavy-webfont.woff') format('woff'),
+         url('../../fonts/lato-heavy-webfont.ttf') format('truetype'),
+         url('../../fonts/lato-heavy-webfont.svg#latoheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* CSS Document */
+.padding_left_zero{ padding-left:0px !important;}
+.padding_right_zero { padding-right:0px;}
+label{ background-image:none;}
+.details_main { margin:0 auto; max-width:70%; border: 1px solid #eaeaea;    box-shadow: 1px 1px 13px -1px rgba(221, 221, 221, 1);    margin: 0 auto; position:relative;display: inline-block; }
+/*.details_main img{ padding-top:0px; padding-bottom:20px; }*/
+.details_main  .img_box{ padding:10px; /*border:1px solid #ddd; max-width:152px;*/  margin:0 auto; }
+.details_main h2{ color: #78ce7b; font-size:22px;}
+.form-group{ margin-bottom:0px;}
+.iconic-input.right .icon_req{   color: #ff6c60;  font-size: 6px;  line-height: 18px;  top: -10px;  right: -4px;}
+.iconic-input.right .icon_req_select{color: #ff6c60;  font-size: 6px;  line-height: 18px;  top: -10px;  right: -4px;float: right;  z-index: 100;}
+.ajax-upload-dragdrop .img-circle{width:100px !important;} 
+
+.c-checkbox span {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+.c-checkbox {margin-top:0;
+	margin-bottom:0;
+}
+.c-checkbox label{ text-align:left !Important;}
+
+.c-checkbox span:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  text-align: center !important;
+  font-size: 12px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.c-checkbox input[type=checkbox]{
+  position:absolute;
+  margin: 4px 0 0;
+  opacity:0;
+}
+
+.c-checkbox input[type=checkbox]:checked {
+color: #fff;
+transition: color 0.3s ease-out;
+}
+
+.c-checkbox input[type=checkbox]:checked + span{
+border-color:#94C359;
+background-color:#94C359;
+}
+
+.c-checkbox input[type=checkbox]:checked + span:before{
+  color: #fff;
+opacity: 1;
+transition: color 0.3s ease-out;
+}
+
+
+/**/
+
+.head_text{ font-family:latobold; font-size:18px; color:#666 }
+.head_text1{ font-family:latoheavy; font-size:16px; color:#444 }
+.head_text2{ font-family:latoregular; font-size:14px; color:#222; }
+.head_text3{ font-family:latobold; font-size:14px; color:#666 }
+.key_data li{ list-style-type:disc !important; font-family:latoregular;}
+.key_data { padding-left:18px;}
+.att_head { padding:2px; position:relative;  padding-left: 15px; }
+#carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+	  width: 112px;
+	  height: 75px;
+	  cursor: pointer;
+	  margin: 4px;
+	  float: left;
+	  border: 1px solid #ddd;
+}
+.item .thumb img, .item img {
+	width: 100%;	
+}

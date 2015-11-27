@@ -1,0 +1,26 @@
+.table-head-search { float: right;
+    text-align: left;
+	padding:0 6px 0 27px;
+	top: 0;
+    position: absolute;
+    right: 0;
+	margin-top:2px;
+	margin-right:3px;
+	background-color:#fff;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.search:focus{top: 0;
+    position: absolute;
+    right: 0;
+	padding:0 6px 0 12px;
+	width:98%;
+	margin-top:2px;
+	margin-right:3px;
+	background:#fff;
+}
+
+.table-search-head thead th{position:relative;
+}

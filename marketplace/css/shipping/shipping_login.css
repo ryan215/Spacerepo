@@ -1,0 +1,182 @@
+/* shipping sign in page css*/
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff2') format('woff2'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+
+.btn-shiping-sign{
+    border-radius: 50px !important;
+    font-size: 16px;
+    line-height: 1;
+    padding: 8px 21px;
+	background-color:#7BC470;
+	color:#fff;
+	transition:all .2s ease-out;
+}
+
+.btn-shiping-sign:hover, .btn-shiping-sign:active, .btn-shiping-sign:focus {
+    background-color: #6bb460;
+	color:#fff;
+}
+
+.top-btn-div{padding-top:5%;
+	text-align:right;
+}
+
+.log-in-box{
+}
+
+.shipping-form h2{color:#7bc570;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:22px;
+}
+
+.ship-input{height:45px;
+	box-shadow:none;
+	border-radius:4px !important;
+}
+
+.input-group-addon{padding: 6px 15px;
+	font-size:21px;
+	background:none;
+	border-bottom-right-radius:4px !important;
+	border-top-right-radius:4px !important;
+}
+
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    font-size: 22px;
+    width: 30px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px;
+	color:#B6B6B6;
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa
+{
+    color:#38B550;
+	border-color:#38B550;
+}
+
+.input-label{border-left: 1px solid #ccc;
+    height: 29px;
+    line-height: 29px;
+    margin: 7px 0;
+    padding: 0 10px !important;
+	}
+
+.form-control:focus {
+    border-color: #38B550;
+    outline: 0 none;
+	box-shadow:none;
+	color:#38B550;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+color:#38B550 !important;
+}
+.form-control:focus:-moz-placeholder {
+color:#38B550 !important;
+}
+.form-control:focus:-ms-input-placeholder {
+color:#38B550 !important;
+}
+
+.form-control::-moz-placeholder {
+    color: #b6b6b6;
+}
+
+.input-group-addon i{border-left: 1px solid #ccc;
+    height: 29px;
+    line-height: 30px;
+    padding-left: 11px;
+}
+
+.ship-sign-btn{border-radius: 4px !important;
+    font-size: 20px;
+    line-height: 1;
+	border:none;
+    padding: 8px 21px;
+	background-color:#7BC470;
+	color:#fff;
+	transition:all .2s ease-out;
+	text-transform:uppercase;
+	padding:12px 20px;
+}
+
+.ship-sign-btn:hover, .ship-sign-btn:active, .ship-sign-btn:focus {
+    background-color: #6bb460;
+	color:#fff;
+}
+
+.main-shi-div{box-shadow: 0 0 7px #ccc;
+    padding: 12px 35px 20px;
+}
+
+.pd{padding:0;
+}
+
+.car-div{padding:26.5% 0 0 0;;
+}
+.car-div img{width:100%;
+}
+
+.man-div{padding:0.5% 0 0 3%;
+}
+
+.man-div img{width:100%;
+}
+
+.forgot-link a{color:#7bc470;
+	text-decoration:none;
+	font-size:13px;
+}
+
+.forgot-link{text-align:right;
+}
+
+.map-div img{width:80%;
+}
+
+.map-div{text-align:right;
+	padding: 0% 0 3%;
+}
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	 .map-div{padding: 11% 0 0;}
+}
+
+
+
+/* Sign Up Css */
+.padding-bottom{
+    padding-bottom: 20px;
+}

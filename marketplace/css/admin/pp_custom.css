@@ -1,0 +1,179 @@
+.pp_retailer_sec{width: 60%; margin:50px auto ;   padding: 40px; padding-top:10px;margin-bottom:20px;   border: 1px solid #eaeaea;   box-shadow: 1px 1px 13px -1px rgba(221, 221, 221, 1);    display: inline-block;}
+label{ background-image:none; font-weight:bold !important;}
+/* pricing*/
+.price-table {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px !important;
+    padding-top: 30px;
+}
+.price-block.pro {
+    background: #fff;
+    border-top: 0 none;
+    margin-top: -30px;
+    padding: 30px 0 0;
+    position: relative;
+    border-bottom: none;
+}
+.price-block.pro:before, .price-block.pro:after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background: #7bc470 !important;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.price-block-inner {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.price-block h3 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px 0px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.pro .special-plan {
+    color: #e19533;
+    font-size: 11px;
+    font-weight: 400;
+    left: 0px;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+   	border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    background: #fff;
+    height: 31px;
+}
+.pro .special-plan:before, .pro .special-plan:after {
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+   
+    left: 0px;
+    top: 0px;
+}
+.price-block{ margin:10px;}
+.price-block .main-price {
+    border-bottom: 1px solid #eee;
+    padding: 0 10% 50px;
+}
+.main-price span {
+    display: block;
+}
+.price-figure small {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    right: -5px;
+    top: -5px;
+}
+.price-figure, .price-figure i {
+    color: #7bc470 !important;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 55px;
+    display: inline-block;
+}
+.price-term {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 15px;
+    min-height: 19px;
+}
+.info {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.goal a {
+    background: #7bc470 !important;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.main-features {
+    padding: 20px 10%;
+    border-bottom: 1px solid #eee;
+}
+.main-features p:first-child {
+    margin-bottom: 20px;
+}
+.main-features p {
+    text-align: center;
+}
+.main-features p span {
+    display: block;
+    font-weight: bold;
+}
+.main-features p:first-child {
+    margin-bottom: 20px;
+}
+.price-features {
+        max-height: 305px;
+    min-height:305px;
+}
+.price-features {
+    padding: 20px 10%;
+    text-align: left;
+
+}
+.price-features .price-plus {
+    font-size: 13px;
+    font-weight: 600;
+    color: #999;
+}
+.price-features li {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    position: relative;
+    line-height: 22px;
+}
+.price-block.pro:before, .price-block.pro:after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background: #7bc470 !important;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.price-block.pro:after {
+    bottom: 0px;
+    top: auto;
+}
+.price-block.pro:hover {
+    box-shadow: 0px 1px 26px 2px rgba(0,0,0,0.1);
+}
+/**/
+.back_btn{ display: block;  font-size: 14px;   font-weight: 600;   padding: 10px 0;   text-transform: uppercase;  width: 100%; border-radius:0px;    background: #ec971f;    border-color:#ec971f }
+.back_btn:hover{ background:#F5A168; border-color:#F5A168  }
+.error{ text-align:left;font-size: 12px;}

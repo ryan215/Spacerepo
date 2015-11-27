@@ -1,0 +1,256 @@
+/* Footer
+-------------------------------------------------- */
+.footer {
+  padding: 70px 0;
+  margin-top: 70px;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+.footer-links {
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+/*----------------------------------------------------------------------
+|                              CSS FOR FOOTER                          |
+-----------------------------------------------------------------------*/
+.yt-footer-wrap .footer-top {
+  background: url(../images/img-newletter-footer.jpg) no-repeat left center;
+  color: #fff;
+  padding: 12px 0px 0px;
+}
+.yt-footer-wrap .footer-top .block-subscribe-footer .title-block {
+  float: left;
+  display: inline-block;
+}
+.yt-footer-wrap .footer-top .block-subscribe-footer .title-block h2 {
+  text-align: left;
+  font-size: 133.33%;
+  font-weight: bold;
+  margin: 6px 0 3px;
+}
+.yt-footer-wrap .footer-top .block-subscribe-footer .block-content {
+  float: right;
+  padding-top: 5px;
+  display: inline-block;
+}
+.yt-footer-wrap .footer-top .block-subscribe-footer .block-content .input-box,
+.yt-footer-wrap .footer-top .block-subscribe-footer .block-content .actions {
+  display: inline-block;
+  vertical-align: top;
+}
+.yt-footer-wrap .footer-top .block-subscribe-footer .block-content .input-box {
+  margin-right: -4px;
+}
+.yt-footer-wrap .footer-top .block-subscribe-footer .block-content .input-box #newsletter {
+  width: 470px;
+  height: 42px;
+  border: none;
+  border-radius: 4px 0 0 4px !important;
+  -moz-border-radius: 4px 0 0 4px !important;
+  -webkit-border-radius: 4px 0 0 4px !important;
+  border-bottom: 2px solid #ccc;
+}
+.yt-footer-wrap .footer-top .block-subscribe-footer .block-content .actions button {
+  text-transform: none;
+  font-weight: bold !important;
+  height: 43px;
+  line-height: 42px;
+  border-radius: 0 4px 4px 0 !important;
+  -moz-border-radius: 0 4px 4px 0 !important;
+  -webkit-border-radius: 0 4px 4px 0 !important;
+  border-bottom: 2px solid #da4a1d;
+}
+.yt-footer-wrap .footer-top .socials-wrap {
+  text-align: center;
+  background-color: #3a3a3a;
+}
+.yt-footer-wrap .footer-top .socials-wrap ul li {
+  display: inline-block;
+}
+.yt-footer-wrap .footer-top .socials-wrap ul li a {
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  margin: 0 5px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.yt-footer-wrap .footer-top .socials-wrap ul li a span {
+  display: none;
+}
+.yt-footer-wrap .footer-bottom-sevicer {
+  background-color: #ddd;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce {
+  margin-top: 40px;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .img-sevirce {
+  margin-bottom: 15px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url(../images/shoppy-img.png) no-repeat;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .img-sevirce1 {
+  background-position: left 0;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .img-sevirce2 {
+  background-position: -50px 0;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .img-sevirce3 {
+  background-position: -100px 0;
+  width: 55px;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .img-sevirce4 {
+  background-position: -165px 0;
+  width: 50px;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .img-sevirce5 {
+  background-position: -220px 0;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .content-service {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .content-service a {
+  display: block;
+  font-weight: bold;
+}
+.yt-footer-wrap .footer-bottom-sevicer .sn-sevirce .content-service span {
+  display: inline-block;
+  max-width: 170px;
+}
+.yt-footer-wrap .footer-bottom-tag {
+  background-color: #eee;
+}
+.yt-footer-wrap .footer-bottom-tag .block-tags {
+  margin-top: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.yt-footer-wrap .footer-bottom-tag .block-tags .block-title {
+  margin-bottom: 10px;
+}
+.yt-footer-wrap .footer-bottom-tag .block-tags .block-content {
+  margin-bottom: 25px;
+}
+.yt-footer-wrap .footer-bottom-tag .block-tags .tags-list li {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 0;
+  color: #ccc;
+}
+.yt-footer-wrap .footer-bottom-tag .block-tags .tags-list li a:first-child {
+  padding: 0 5px 0 0 ;
+}
+.yt-footer-wrap .footer-bottom-tag .block-tags .tags-list li a {
+  font-size: 100% !important;
+  display: inline-block;
+  padding: 0px 5px;
+}
+.yt-footer-wrap .footer-bottom {
+  background-color: #eee;
+  padding: 8px 0;
+}
+.yt-footer-wrap .footer-bottom .payment-method {
+  float: right;
+}
+.yt-footer-wrap .footer-bottom .payment-method > li {
+  display: inline-block;
+  margin-left: 0px;
+}
+.yt-footer-wrap .footer-bottom .payment-method > li:hover {
+  opacity: 0.8;
+}
+.yt-footer-wrap .block-subscribe-footer .form-list input.input-text,
+.yt-footer-wrap input.input-text {
+  padding: 0 20px;
+}
+.yt-footer-wrap .footer-middle {
+  background-color: #eeeeee;
+  padding: 21px 0 16px;
+}
+.yt-footer-wrap .footer-middle .sn-middle {
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+.yt-footer-wrap .footer-middle .col-footer {
+  padding: 5px 0px 2px;
+}
+.yt-footer-wrap .footer-middle .footer-title {
+  margin-bottom: 20px;
+}
+.yt-footer-wrap .footer-middle .footer-title h2 {
+  font-size: 116.67%;
+}
+.yt-footer-wrap .footer-middle .content-block-footer .icon-caret-right {
+  margin-right: 5px;
+}
+.yt-footer-wrap .footer-middle .content-block-footer .footer-logo {
+  margin-bottom: 10px;
+}
+.yt-footer-wrap .footer-middle .content-block-footer ul li {
+  padding-bottom: 9px;
+}
+.yt-footer-wrap .footer-middle .content-block-footer ul li:last-child {
+  padding-bottom: 0px;
+}
+.yt-footer-wrap .footer-middle .content-block-footer ul li .sp-ic {
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+.yt-footer-wrap .footer-middle .content-block-footer .payment-method {
+  padding-top: 25px;
+}
+.yt-footer-wrap .footer-middle .content-block-footer .payment-method li {
+  display: inline-block;
+  margin-right: 7px;
+}
+.yt-footer-wrap .footer-middle .content-block-footer .payment-method li:last-child {
+  margin-right: 0px;
+}
+.yt-footer-wrap .footer-middle .contact-block .content-block-footer ul li {
+  padding-bottom: 5px;
+  color: #444;
+}
+/*----------------------------------------------------------------------
+|                            END CSS FOR FOOTER                        |
+-----------------------------------------------------------------------*/
+
+/*= FOOTER =*/
+  .yt-footer-wrap .footer-top {
+    min-height: 115px;
+    padding: 32px 0 0;
+  }
+  .yt-footer-wrap .footer-top .validation-advice {
+    color: #F44336;
+    margin-bottom: 5px;
+  }
+  .yt-footer-wrap .footer-top .socials-wrap {
+    height: 70px;
+    margin-top: -12px;
+    margin-right: -15px;
+  }
+  .yt-footer-wrap .footer-top .socials-wrap ul li a {
+    height: 70px;
+    line-height: 70px;
+  }
+  .yt-footer-wrap .footer-top .block-subscribe-footer .title-block {
+    margin-left: 5px;
+  }

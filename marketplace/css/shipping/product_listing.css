@@ -1,0 +1,251 @@
+.breadcrumbs{
+	color:#C6C6C6;
+}
+.search_product{
+	background-color:#7BC570;
+	color:#fff;
+}
+.search_product:hover{
+	background-color:#7BC570;
+	color:#fff;
+}
+.divider{
+	border:1px solid #ccc;
+}
+
+.buynow_btn{
+	padding: 10px 15px 10px 15px;
+	font-size: 16px;
+	border-radius: 10px !important;
+}
+.exclusive {
+	position: absolute;
+	top: 4%;
+	left: 5% !important;
+}
+.fa-star{
+	color:#FEB614 !important;
+}
+.fa-star-o{
+	color:#B6B6B6 !important;
+}
+.caption {
+	line-height: 0px;
+}
+.caption .project-title{
+	color:#9C9C9C;
+}
+.Nigeria_currency{
+	color:#77C66A;
+}
+.inner_product{
+	padding: 10px;
+	background-color: #fff;
+	margin-top:20px;
+	margin-bottom:20px;
+	border: 1px solid #DDDDDD;
+}
+.inner_product .exclusive {
+	position: absolute;
+	top: 12%;
+}
+.inner_product .trending {
+	position: absolute;
+	top: 24%;
+	left: 5%;
+}
+.pagination>li>a, .pagination>li>span{
+	color: #fff !important;
+	background-color: #40434C !important;
+	border-color: #fff !important;
+	margin: 5px;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+	color: #fff !important;
+	background-color: #7AC46F !important;
+	border-color: #fff !important;
+	margin: 5px;
+}
+.product_list_hover:hover , .product_list_hover:hover h4 ,.product_list_hover:hover .Nigeria_currency {
+	background-color: #7BC570;
+	color: #fff !important;
+}
+.product_list_hover:hover .btn-info{
+	background-color: #fff !important;
+	color:#B3D28F;
+}
+.product_list_hover:hover .img-responsive {
+	opacity:0.8;
+}
+#effect-6 .overlay {
+	top: 40% !important;
+	bottom: 165px !important;
+	left: -3%;
+	right: 0;
+	opacity: 0;
+}
+
+.product_left_inner{
+	padding:20px;
+	border:1px solid #E2E2E2;
+	background-color: #fff;
+}
+.product_left_inner  h4{ 
+	color:#ABABAB;
+	font-weight: bold;
+}
+.input-group .checkbox {
+	padding:5px;
+}
+.input-group .checkbox-inline {
+	color:#AAAAAA;
+}
+
+label{
+	color:#AAAAAA;
+}
+.search_item{
+	background-color: #7BC570 !important;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.color{
+	color:#9ECF97;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	text-decoration: none !important;
+	background-color: #fff !important;
+}
+.nav>li>a {
+	position: relative;
+	display: block;
+	padding: 0px;
+}
+.dropdown-menu-left>li>a {
+	display: block;
+	padding: 5px 0px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #333;
+	white-space: nowrap;
+}
+.dropdown-menu-left>li{
+	list-style-type: none;
+}
+
+.dropdown-menu-left{
+	border:none;
+	position: relative;
+	box-shadow:none;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+	background-color: #fff;
+	color:#ACACAC;
+
+}
+.nav  a{
+	color:#ACACAC;
+	font-weight: bold;
+	font-size: 16px;
+}
+.dropdown-menu-left>li>a:hover, .dropdown-menu-left>li>a:focus {
+	color: #A3CE62 !important;
+	text-decoration: none;
+	background-color: #fff;
+	font-size: 14px !important;
+}
+.dropdown-menu-left>li>a{
+	font-size: 14px !important;
+	color:#C5C5C5;
+}
+/**
+ * Checkbox Five
+ */
+.checkboxFive {
+	position: relative;
+	padding-bottom: 12px;
+}
+/**
+ * Create the box for the checkbox
+ */
+.checkboxFive label {
+	cursor: pointer;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 0;
+  	left: 0;
+	background: #eee;
+	border:1px solid #ddd;
+}
+/**
+ * Create the box for the checkbox
+ */
+.checkboxFive label {
+	cursor: pointer;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 0;
+  	left: 0;
+	background: #eee;
+	border:1px solid #ddd;
+}
+/**
+ * Create the box for the checkbox
+ */
+.checkboxFive label {
+	cursor: pointer;
+	position: absolute;
+	width: 22px;
+	height: 20px;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border: 1px solid #999999;
+}
+/**
+ * Display the tick inside the checkbox
+ */
+.checkboxFive label:after {
+	opacity: 0.2;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 6px;
+	left: 7px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+/**
+ * Create the hover event of the tick
+ */
+.checkboxFive label:hover::after {
+	opacity: 0.5;
+}
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+
+input[type=radio], input[type=checkbox] {
+margin: 3px 8px 0;
+margin-top: 1px \9;
+line-height: normal;
+}
+.checklabel{
+	color:#AAAAAA;
+}

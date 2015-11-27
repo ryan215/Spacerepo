@@ -1,0 +1,29 @@
+.pagination {
+  height: 36px;
+  margin:0px;
+}
+.pagination a {
+  padding: 3px 12px;
+  line-height: 34px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left-width: 0;
+  color:#fa8564;
+  font-size:13px;
+  outline:medium none;
+  background-color:#FFF;
+}
+.pagination a:hover {
+  background-color:#fa8564;
+  color:#FFF;
+}
+.pagination strong {
+	padding: 3px 12px;
+	background-color:#fa8564;
+  	color:#FFF;
+}
+
+.error
+{
+	color:red;
+}

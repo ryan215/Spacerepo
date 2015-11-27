@@ -1,0 +1,145 @@
+
+.site-color {
+	color:#7BC570 !important;
+}
+a:hover, a:focus {
+	color:#7BC570;
+}
+.search-full, .search-input {
+	background: #4bb777;
+}
+.search-close {
+	color: #4BB777;
+}
+.searchInputBox .search-btn {
+	color:#fff;
+}
+
+.btn-primary, .product:hover .add-fav:hover, .product:hover .add-fav.active {
+	background-color: #7BC570;
+	color: #FFFFFF;
+}
+
+.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background:  #7BC570;
+}
+
+.navbar-nav > li > a {
+	color:#fff;
+}
+
+
+
+.search-box:hover .form-control {
+	background:#7BC570;
+}
+.search-box:hover .btn-nobg {
+	color:#7BC570;
+}
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background:rgba(78, 198, 127, 0.7) !important;
+}
+.action-control a:hover, .action-control a.active {
+	color:#fff;
+	background:#7BC570;
+}
+.product:hover, .featuredImgLook2 .inner:hover {
+	border: 1px solid #7BC570;
+}
+.subCategoryList .thumbnail:hover {
+	border: 1px solid #7BC570;
+}
+#pager a.cycle-pager-active {
+	background:rgba(39, 174, 96, 0.5);
+}
+.pager2 a {
+	border: 1px solid #7BC570;
+}
+.pager2 a.selected {
+	background:#7BC570;
+}
+.btn-site, .newsLatterBox .btn {
+	background: #7BC570;
+}
+.btn-discover:hover, .btn-site:hover, .newsLatterBox .btn:hover {
+	background: #7BC570;
+}
+.full {
+	width:100%;
+}
+.footer a:hover {
+	color:#7BC570;
+}
+.footer {
+/*border-top: solid 3px #7BC570;*/
+}
+.modal-header {
+	
+}
+.form-control:focus {
+	border-color: #7BC570;
+}
+.new-product {
+	background:rgba(39, 174, 94, 0.95) !important;
+}
+/* tree menu */
+
+
+.nav.tree > li.active, .nav.tree > li > a:hover, .nav.tree > li > a:focus, .nav.tree > li:hover > a {
+	background:none;
+	color:#2c3e50;
+}
+.nav.tree .open-tree > a, .nav.tree .open-tree > a:hover, .nav.tree .open-tree > a:focus {
+	background:none;
+	font-weight:bold;
+	color:#2c3e50;
+}
+.panel-default > .panel-heading {
+	border-top: 4px solid #7BC570;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li:hover > a {
+	background:#BFC9CA;
+}
+.nav-tabs {
+	border-bottom: 3px solid #BFC9CA;
+}
+.socialIcon a:hover {
+	background:#7BC570;
+}
+.cart-actions button, .cart-actions .wishlist {
+	background: none repeat scroll 0 0 #7BC570;
+	border: 2px solid #7BC570;
+}
+.cart-actions button:hover {
+	background:#fff;
+	color:#2c3e50;
+	border:solid 2px #7BC570;
+}
+.sp-thumbs a:hover, .sp-thumbs a:active, .sp-current, sp-current:visited {
+	border: 2px solid #7BC570 !important;
+}
+.promo-1 {
+	background: none repeat scroll 0 0 #7BC570;
+}
+ @media (max-width: 767px) {
+ .miniCartFooter {
+ background:#7BC570 !important;
+}
+}
+#pager2 span.cycle-pager-active {
+}
+#pager2 span.cycle-pager-active {
+	background: #7BC570 !important;
+}
+#pager2 span {
+	border: 2px solid #7BC570
+}
+.orderStep li.active a {
+	background: none repeat scroll 0 0 #1ABC9C;
+}
+.orderStep li.active a:after {
+	border-top-color: #1ABC9C !important;
+}
+.orderStep li a {
+	background:  #EFF0F2;
+}

@@ -1,0 +1,110 @@
+/*breadcrumbs-alt*/
+.breadcrumbs-alt {
+    list-style-type:none;
+    margin:0px 0 20px;
+    overflow:hidden;
+    padding:0;
+    width:100%;
+}
+.breadcrumbs-alt li {
+    float:left;
+    margin:0 25px 0 0;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:before {
+    border-color:#E0E1E7 #E0E1E7 #E0E1E7 rgba(0,0,0,0);
+    border-style:solid;
+    border-width:1.5em 0 1.7em 1em;
+    content:"";
+    left:-1em;
+    margin-top:-1.6em;
+    position:absolute;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:after {
+    border-bottom:1.5em solid rgba(0,0,0,0);
+    border-left:1em solid #E0E1E7;
+    border-top:1.5em solid rgba(0,0,0,0);
+    content:"";
+    margin-top:-1.5em;
+    position:absolute;
+    right:-1em;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a {
+    background:#E0E1E7;
+    color:#444444;
+    float:left;
+    font-size:12px;
+    padding:10px;
+    position:relative;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out 0s;
+}
+/*active and hover*/
+.breadcrumbs-alt a:hover:before,.breadcrumbs-alt a.current:before {
+    border-color:#78CD51 #78CD51 #78CD51 rgba(0,0,0,0);
+    border-style:solid;
+    border-width:1.5em 0 1.7em 1em;
+    content:"";
+    left:-1em;
+    margin-top:-1.6em;
+    position:absolute;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:hover:after,.breadcrumbs-alt a.current:after {
+    border-bottom:1.5em solid rgba(0,0,0,0);
+    border-left:1em solid #78CD51;
+    border-top:1.5em solid rgba(0,0,0,0);
+    content:"";
+    margin-top:-1.5em;
+    position:absolute;
+    right:-1em;
+    top:50%;
+    transition:all 0.3s ease-in-out 0s;
+}
+.breadcrumbs-alt a:hover,.breadcrumbs-alt a.current {
+    background:#78CD51;
+    color:#fff;
+    float:left;
+    font-size:12px;
+    padding:10px;
+    position:relative;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.profile-nav .user-heading.round a{
+	border-radius:0px !important;
+}
+.profile-nav .user-heading a img {
+	border-radius:0px !important;
+}
+.location_box{
+	  background: none repeat scroll 0 0 #CDE69C !important;
+	  border: 0 none !important;
+	  color: #638421 !important;
+	  margin-bottom: 4px !important;
+	  padding: 5px 6px !important; 
+	  margin:5px;
+	  display: inline-block;
+}
+
+/*.table-responsive {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+*/
+
+.wrapper {
+display: inline-block;
+/*margin-top: 72px !important;*/
+padding: 15px;
+width: 100%;
+}

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff2') format('woff2'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+
+
+body{background-color:#fff;
+	font-family: 'OpenSansRegular';
+}
+
+.cart-chechout{color: #989898;
+}
+
+.accordion-toggle h3{margin:0;
+	font-size:15px;
+}
+
+.accordion-heading{background-color:#F5F5F5;
+	color:#fff;
+	margin: 2px 0;
+    padding: 8px 10px;
+}
+
+.accordion-heading a{text-decoration:none;
+	 color: #666;
+}
+
+.accordion-body{background-color:#fff;
+	padding-bottom:15px;
+}
+
+.accordion-group{
+	padding:0;
+}
+
+.accordion-inner{padding-top:20px;
+}
+
+legend{margin-bottom: 12px;
+    padding: 0 0 10px;
+	font-size:16px;
+}
+
+
+
+/*
+==============================================
+slideDown
+==============================================
+*/
+
+
+.slideDown{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;						
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-50%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+
+input[type=radio].css-checkbox {
+	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:21px;
+	height:16px; 
+	display:inline-block;
+	line-height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:14px;
+	vertical-align:middle;
+	cursor:pointer;
+	font-family: 'Open Sans Semibold';
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -16px;
+}
+label.css-label {
+background-image:url(../images/check-img.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+		}
+		
+.form-control{box-shadow:none;
+}
+
+.chosen-container{width:100% !important;
+	
+}
+
+.chosen-container-single .chosen-single{height: 34px !important;
+	line-height: 31px !important;
+}
+
+.chosen-container-single .chosen-single div{padding-top:6px;
+}

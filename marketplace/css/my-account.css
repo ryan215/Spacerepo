@@ -1,0 +1,242 @@
+/* My Order Open*/
+/*start cart page by kishan*/
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff2') format('woff2'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+
+
+
+.item-div{
+	padding-top:12px;
+	display:inline-block;	
+}
+
+.item-info{
+	color:#a3cf62;
+	font-size:12px;
+}
+
+.seller-name{
+	font-family: 'OpenSansRegular';
+	font-size:15px;
+}
+
+.seller-name span{
+	font-weight:bold;
+}
+
+.dlv-dtl{
+	font-family: "Open Sans Semibold";
+	font-weight:bold;
+	font-size:16px;
+}
+
+.cart-price{
+	font-family: "OpenSansRegular" !important;
+	color: #a3cf62;
+}
+	
+.cart-subprice{
+	color:#989898;
+    font-family: "OpenSansRegular" !important;  
+	font-weight:bold;
+}
+
+.qty-div{
+	background-color:#eb5467;
+	padding:1px;
+	display:inline-block;
+	
+}
+
+.padding-bottom{
+	padding-bottom: 20px;
+}
+
+.my_account_right_section{
+	background-color: #fff;
+	border-top: 4px solid #A3CE62;
+	padding-bottom: 20px;
+}
+
+.my_account_right_section h3{
+	padding-top:10px;
+	color:#34495E;
+	
+}
+.product_review_left{
+	background-color:#A3CE62;padding-top: 5px !important;padding-bottom: 5px !important;
+}
+
+.product_review_left h3{
+	margin:0px; padding:0px;padding-left: 10px; color:#fff;
+}
+.product_review_right{
+	text-align:right;background-color:#A3CE62;padding-top: 5px !important;padding-bottom: 5px !important;padding-right: 10px !important;
+}
+.product_review_right b{
+	color:#fff;
+}
+.review_edit{
+	color:#000;
+}
+
+.review_delete{
+	color:#000;
+}
+.odd_review{
+	background-color: rgba(166, 163, 163, 0.06);
+}
+
+.no-star{
+	color: #ddd !important;
+	}
+
+@media only screen and (max-width: 800px) {
+	
+	/* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.cart-table{
+	}
+
+	#no-more-tables tr { border: 1px solid #ccc; }
+
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+		display:inline-block !important; width:100%;
+	}
+
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+		
+	}
+
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title);}
+}
+	
+/*start cart page by kishan*/
+
+
+/*****************************responsive media query css****************************************/
+
+@media only screen 
+and  (max-width : 640px) {
+	.toatal-price{font-size:20px;
+	}
+	.btn-main {width:100%;
+	}
+	.cart-table .img img{max-height:100px;
+		max-width:100px;
+	}
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 360px) and (max-width : 640px) {
+	
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	.cart-table .img{width:165px;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+/********************************end of responsive media query************************************************/
+
+
+
+/* My Order Close*/

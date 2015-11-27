@@ -1,0 +1,175 @@
+.pointeforce-container{font-family: 'Lato', sans-serif;
+	font-size: 15px;
+    line-height: 22px;
+	padding-top:85px;
+	color:666666;
+}
+
+.pd-left{padding:0;
+}
+
+.main-rows{padding-bottom:58px;
+}
+
+.poiteforce-intro{padding-left:0;
+}
+
+.poiteforce-intro h1{
+	font-size:2.5em !important;
+	margin-bottom:8px;
+	font-family: 'Droid Serif';
+}
+
+.poiteforce-intro h1 span{opacity:1 !important;
+}
+
+.poite-color{color:#7EAC30;
+}
+
+.force-color{color:#F19210;
+}
+
+.pointe-img img{width:100%;
+}
+
+.definesucces-leftdiv{background-color:#7bc470;
+	color:#fff;
+	padding:30px;
+	position:relative;
+}
+
+.definesucces-leftdiv h2{font-size:2em;	
+}
+
+.definesucces-leftdiv ul{margin-top:15px;
+}
+
+.definesucces-leftdiv ul li{  font-size: 17px;
+    line-height: 25.2px;
+    padding: 7px 0;
+}
+
+.definesucces-leftdiv ul li i{margin-right:8px;
+}
+
+.definesucces-rightdiv img{width:100%;
+}
+
+.definesucces-rightdiv{padding:0;
+}
+
+.definesucces-leftdiv:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(123, 196, 112, 0);
+	border-left-color: #7bc470;
+	border-width: 20px;
+	margin-top: -20px;
+	z-index:99;
+}
+
+.parts-head{text-align:center;
+	  padding-bottom: 45px;
+    padding-top: 10px;
+}
+
+.parts-head h1{font-size:1.5em;
+	margin-top:15px;
+}
+
+.points-maindiv{text-align:center;
+}
+
+.five-points{padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.five-points p{padding-top:10px;
+	padding-top:16px;
+}
+
+.force-form{background-color:#eeeeee;
+	padding:40px 80px;
+}
+
+.forceform-head {text-align:center;
+}
+
+.forceform-head h1{font-size:1.8em;
+	font-family: 'Droid Serif';
+	margin-top:38px;
+}
+
+.forceform-head p{font-size: 16px;
+    padding: 15px 0 30px;
+}
+
+.forceform-contant{font-size:15px;
+}
+
+.force-input{height:46px;
+	border-radius:0;
+	border-color:#a6a5a5 !important;
+}
+
+.forceform-contant .form-group{display:inline-block;
+	padding-top:22px;
+}
+
+.cirlce-img-force{left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -66px;
+}
+
+.cirlce-img-force img{width:13%;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+}
+
+.cirlce-img-force img:hover{ -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.submit-force{background-color:#7bc470;
+	 border-radius: 2px;
+    font-size: 18px;
+    padding: 10px 85px;
+    text-transform: uppercase;
+	border:0;
+	margin-top:30px;
+}
+
+.submit-force:hover{background-color:#63ae58;
+	border:0;
+}
+
+.form-control.c-selectpicker{-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px 30px 10px 10px;
+    background: #fff url("../../images/new_images/pointeforce/drop_arrow.png") no-repeat right center;
+	background-position:95%;
+  }
+  
+.form-control.c-slct-small{background-position:85%;
+}
+
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  {
+	.definesucces-leftdiv ul li {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 2px 0;
+}
+}

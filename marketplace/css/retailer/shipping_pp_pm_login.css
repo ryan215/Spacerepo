@@ -1,0 +1,294 @@
+/* shipping sign in page css*/
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../../fonts/opensans-regular.eot');
+    src: url('../../fonts/opensans-regular.eot') format('embedded-opentype'),
+         url('../../fonts/opensans-regular.woff2') format('woff2'),
+         url('../../fonts/opensans-regular.woff') format('woff'),
+         url('../../fonts/opensans-regular.ttf') format('truetype'),
+         url('../../fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+	font-family: 'museo300';
+	src: url('../../fonts/Museo300-Regular-webfont.eot');
+	src: url('../../fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Museo300-Regular-webfont.woff2') format('woff2'),  url('../../fonts/Museo300-Regular-webfont.woff') format('woff'),  url('../../fonts/Museo300-Regular-webfont.ttf') format('truetype'),  url('../../fonts/Museo300-Regular-webfont.svg#museo300') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl 300';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Museo Sans Cyrl 300'), url('../../fonts/MuseoSansCyrl_0.woff') format('woff');
+}
+
+body{font-family: 'Museo Sans Cyrl 300';
+}
+
+.btn-shiping-sign{
+    border-radius: 8px !important;
+    font-size: 15px;
+    line-height: 1;
+    padding: 11px 21px;
+	background-color:#fff;
+	color:#7bc470;
+	border:2px solid #7bc470;
+	transition:all .2s ease-out;
+	text-transform:uppercase;
+	font-family: 'Museo Sans Cyrl 300';
+	font-weight:600;
+}
+
+.btn-shiping-sign:hover, .btn-shiping-sign:active, .btn-shiping-sign:focus {
+    background-color: #6bb460;
+	border:2px solid #7bc470;
+	color:#fff;
+}
+
+.top-btn-div{padding-top:5%;
+	text-align:right;
+}
+
+.log-in-box{
+}
+
+.shipping-form h2{color:#444444;
+	text-align:center;
+	margin-bottom:29px;
+	font-size:19px;
+}
+
+.ship-input{height:45px;
+	box-shadow:none;
+	border-radius:1px !important;
+}
+
+.input-group-addon{padding: 6px 15px;
+	font-size:21px;
+	background:none;
+	border-bottom-right-radius:4px !important;
+	border-top-right-radius:4px !important;
+}
+
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    font-size: 22px;
+    width: 30px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 4px 0 5px 6px !important;
+    top: 1px;
+	color:#B6B6B6;
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa
+{
+    color:#38B550;
+	border-color:#38B550;
+}
+
+.input-label{border-left: 1px solid #ccc;
+    height: 29px;
+    line-height: 29px;
+    margin: 7px 0;
+    padding: 0 10px !important;
+	}
+
+.form-control:focus {
+    border-color: #38B550;
+    outline: 0 none;
+	box-shadow:none;
+	color:#38B550;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+color:#38B550 !important;
+}
+.form-control:focus:-moz-placeholder {
+color:#38B550 !important;
+}
+.form-control:focus:-ms-input-placeholder {
+color:#38B550 !important;
+}
+
+.form-control::-moz-placeholder {
+    color: #b6b6b6;
+}
+
+.input-group-addon i{border-left: 1px solid #ccc;
+    height: 29px;
+    line-height: 30px;
+    padding-left: 11px;
+}
+
+.ship-sign-btn{border-radius: 0 !important;
+    font-size: 20px;
+    line-height: 1;
+	border:none;
+    padding: 8px 21px;
+	background-color:#7BC470;
+	color:#fff;
+	transition:all .2s ease-out;
+	padding:15px 20px;
+}
+
+.ship-sign-btn:hover, .ship-sign-btn:active, .ship-sign-btn:focus {
+    background-color: #6bb460;
+	color:#fff;
+}
+
+.main-shi-div{box-shadow: 0 0 7px #ccc;
+    padding: 12px 35px 6px;
+	background-color:#fff;
+}
+
+.pd{padding:0;
+}
+
+.pd-right{padding-right:0;
+}
+
+.pd-left{padding-left:0;
+}
+
+.forgot-link a{color:#7bc470;
+	text-decoration:none;
+	font-size:16px;
+}
+
+.forgot-link{text-align:center;
+}
+
+.right-div-signin img{width:80%;
+}
+
+.right-div-signin {text-align:right;
+}
+
+.not-alrdy{padding:10px 0;
+}
+
+.sign-inbtn-div{padding:20px 16px;
+	margin-bottom:0;
+}
+
+.logo-divider{
+	height:50px;
+	width:1px;
+	display:inline-block;
+	margin-top:10px;
+	padding:0 40px;
+}
+
+.main-shipsignin-div{padding-top:4%;
+	padding-bottom:60px;
+}
+
+.not-alrdy a{color:#7bc470;
+	text-decoration:none;
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+.not-alrdy{text-align:center;
+	color:#666666;
+		font-size:15px;
+}
+
+.footer-col{
+	color:#666666;
+}
+
+.footer-col h2{font-family: 'Museo Sans Cyrl 300';
+	font-size:20px;
+	font-weight:600;
+
+}
+
+.footer-ul li{list-style-type:none;
+	width:25%;
+	float:left;
+	padding:0 15px 20px;
+	font-family: 'Museo Sans Cyrl 300';
+	font-size:13px;
+	font-weight:600;
+	min-height:170px;
+}
+
+.footer-col-gray{background:#eeeeee;
+}
+
+.footer-ul li a{font-size:18px;
+	font-family: 'Museo Sans Cyrl 300';
+	font-weight:500;
+	color:#00a0e4;
+}
+
+.ship-input2{height:38px;
+}
+
+.sign-inbtn-div2{padding-left:0 !important;
+	padding-right:0 !important;
+}
+
+.user-not-avl{border-color:#ef755d !important;
+	}
+	
+	.user-name-avl{border-color:#38b550 !important;
+}
+
+.user-iconlabel-avl{color:#38b550 !important;
+	border-color:#38b550!important;
+}
+
+.user-iconlabel-not-avl{color:#ef755d !important;
+	border-color:#ef755d !important;
+}
+
+
+
+
+@media only screen and (max-width:767px){
+	.footer-ul li{width:33.33%;
+		margin-bottom:20px;
+	}
+	.right-div-signin img{width:100%;
+	}
+	.logo{text-align:center;
+	}
+	.top-btn-div{text-align:center;
+		margin-top:1%;
+	}
+	.right-div-signin{margin-top:20px;
+	}
+	.form-group-signup{padding:0;
+	}
+}
+
+
+@media only screen and (max-width:480px){.footer-ul li{width:100%;
+		margin-bottom:20px;
+	}
+	.pm-logo{width:38%;
+	}
+	.pp-logo{width:25%;
+	}
+}

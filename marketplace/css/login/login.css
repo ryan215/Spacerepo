@@ -1,0 +1,164 @@
+* {
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+			
+			body {
+				margin: 0;
+				pading: 0;
+				color: #fff;
+				background: url(../../img/login-bg.jpg) no-repeat center center fixed; 
+			    -webkit-background-size: cover;
+			    -moz-background-size: cover;
+			    -o-background-size: cover;
+			    background-size: cover;
+				font-size: 16px;
+				font-weight: bold;
+				
+			}
+			
+			li {
+				list-style: none;
+			}
+			
+			#dummy {
+				position: absolute;
+				top: 0;
+				left: 0;
+				border-bottom: solid 3px #777973;
+				width: 100%;
+				z-index: 1;
+			}
+			
+			#dummy2 {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				background: transparent;
+				z-index: 2;
+			}
+			
+			#login-wrapper {
+				margin: 0 0 0 -160px;
+				width: 320px;
+				text-align: center;
+				z-index: 99;
+				position: absolute;
+				top: 0;
+				left: 50%;
+			}
+			
+			#login-top {
+				height: 140px;
+				padding-top: 140px;
+				text-align: center;
+			}
+			
+			#login-top img{
+				margin-left: -13%;
+				width: 410px;
+				margin-bottom:5px;
+			}
+			
+			label {
+				float: left;
+				padding: 8px;
+				line-height: 22px;
+				margin-top: -4px;
+			}
+			
+			input.text-input {
+				width: 200px;
+				float: right;
+				-moz-border-radius: 4px;
+                -webkit-border-radius: 4px;
+				border-radius: 4px;
+				background: #fff;
+				border: solid 1px transparent;
+				color: #555;
+				padding: 8px;
+				font-size: 13px;
+			}
+			
+				
+			input.button {
+				background: none repeat scroll 0 0 #f4873d;
+				border: 1px solid transparent;
+				border-radius: 4px;
+				color: #fff;
+				cursor: pointer;
+				float: right;
+				font-size: 14px;
+				font-weight: bold;
+				letter-spacing: 1px;
+				margin: 18px auto 0 100px;
+				padding: 6px 80px;
+			}
+			
+			input.button:hover {
+				background-color: #e1742a;
+				-webkit-background-color: #e1742a;
+				-moz-background-color: #e1742a;
+				-ms-background-color: #e1742a;
+				color: #fff;
+			}
+			
+			div.error {
+				padding: 8px;
+				background: rgba(52, 4, 0, 0.4);
+				-moz-border-radius: 8px;
+                -webkit-border-radius: 8px;
+				border-radius: 8px;
+				border: solid 1px transparent;
+				margin: 6px 0;
+			}
+			
+			.forgot-pass{text-align:right;
+				margin-top:5px;
+			}
+			
+			.forgot-pass a{color:#fff; font-size: 12px; text-align: right; text-decoration:none;
+			}
+			
+						/* -------------------------------------
+				CSS for Checkbox Type-2
+			---------------------------------------- */
+			
+			input[type=checkbox].check2 {
+			display:none;
+			}
+			/*--------------------------------------------------------------------------------
+			Creating Checkbox and label as a Single unit(for Cross browser compatibility)
+			----------------------------------------------------------------------------------*/
+			input[type=checkbox].check2 + label.label2 {
+			padding-left:33px;
+			display:inline-block;
+			line-height:6px;
+			background-repeat:no-repeat;
+			cursor:pointer;
+			font-size:13px;
+			}
+			
+			input[type=checkbox].check2:checked + label.label2 {
+			background-position: 0 -22px;
+			}
+			
+			label.label2{
+			background-image:url(../../img/check2.png);
+			}
+			
+			/* -------------------------------------
+				CSS for sidebar (optional) 
+			---------------------------------------- */
+			div#second{
+			width: 425px;
+			height:720px;
+			float:left;
+			}
+			
+			img{
+		
+			}
+			.remeber-pass{padding-left:32%;
+				margin-bottom:0;
+			}
